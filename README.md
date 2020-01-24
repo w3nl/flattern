@@ -1,9 +1,8 @@
 # flattern, flat objects
 
+[![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Coveralls Status][coveralls-image]][coveralls-url]
+
 Get a flat version of the object
-
-[![NPM version][npm-image]][npm-url]
-
 
 ## Installation
 
@@ -45,3 +44,7 @@ The response:
 
 [npm-url]: https://www.npmjs.com/package/flattern
 [npm-image]: https://img.shields.io/npm/v/flattern.svg
+[travis-url]: https://travis-ci.org/w3nl/flattern
+[travis-image]: https://img.shields.io/travis/w3nl/flattern/master.svg
+[coveralls-url]: https://coveralls.io/r/w3nl/flattern
+[coveralls-image]: https://img.shields.io/coveralls/w3nl/flattern/master.svg
