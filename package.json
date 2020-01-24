@@ -1,7 +1,7 @@
 {
     "name": "flattern",
     "description": "Get a flat version of the object",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "author": {
         "name": "Pieter Wigboldus",
         "url": "https://hckr.news/"
