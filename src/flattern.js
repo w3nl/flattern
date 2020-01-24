@@ -1,4 +1,4 @@
-module.exports = class Flattern {
+export default class Flattern {
     /**
      * Set the original and prefix.
      *
@@ -82,4 +82,6 @@ module.exports = class Flattern {
     get length() {
         return Object.keys(this.flatObject).length;
     }
-};
+}
+
+module.exports = Flattern;
