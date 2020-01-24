@@ -1,5 +1,7 @@
 # flattern, flat objects
 
+Get a flat version of the object
+
 [![NPM version][npm-image]][npm-url]
 
 

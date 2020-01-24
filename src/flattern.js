@@ -1,3 +1,6 @@
+/**
+ * Get a flat version of the object
+ */
 export default class Flattern {
     /**
      * Set the original and prefix.
@@ -42,6 +45,8 @@ export default class Flattern {
 
     /**
      * Get the flat object.
+     *
+     * @return {object}
      */
     get flat() {
         return this.flatObject;
@@ -50,7 +55,7 @@ export default class Flattern {
     /**
      * Get the object entries.
      *
-     * @return {object}
+     * @return {array}
      */
     entries() {
         return Object.entries(this.flatObject);
@@ -59,7 +64,7 @@ export default class Flattern {
     /**
      * Get the object keys.
      *
-     * @return {object}
+     * @return {array}
      */
     keys() {
         return Object.keys(this.flatObject);
@@ -68,7 +73,7 @@ export default class Flattern {
     /**
      * Get the object values.
      *
-     * @return {object}
+     * @return {array}
      */
     values() {
         return Object.values(this.flatObject);
