@@ -1,13 +1,13 @@
-# object.flat
+# flattern, flat objects
 
 [![NPM version][npm-image]][npm-url]
 
 
 ## Installation
 
-`npm install object.flat`
+`npm install flattern`
 or
-`yarn add object.flat`
+`yarn add flattern`
 
 ## Test the package
 
@@ -19,7 +19,7 @@ or
 
 Example usage:
 ```
-new Flatten({
+new Flattern({
     a: 1,
     b: 2,
     c: [3, 4],
@@ -41,5 +41,5 @@ The response:
 }
 ```
 
-[npm-url]: https://www.npmjs.com/package/object.flat
-[npm-image]: https://img.shields.io/npm/v/object.flat.svg
+[npm-url]: https://www.npmjs.com/package/flattern
+[npm-image]: https://img.shields.io/npm/v/flattern.svg
